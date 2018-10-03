@@ -1,38 +1,39 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Текстовое поле</title>
+PUCJlAH PRIBET
+<title>Г’ГҐГЄГ±ГІГ®ГўГ®ГҐ ГЇГ®Г«ГҐ</title>
 </head>
 <body>
 <center>
-<h1>Текстовое поле</h1>
+<h1>Г’ГҐГЄГ±ГІГ®ГўГ®ГҐ ГЇГ®Г«ГҐ</h1>
 </center>
 <FORM METHOD="post" ACTION="1.php">
 
-Введите ваше имя:
+Г‚ГўГҐГ¤ГЁГІГҐ ГўГ ГёГҐ ГЁГ¬Гї:
 <input name="Name" type="text"> <br> </br>
 
-Введите пароль:
+Г‚ГўГҐГ¤ГЁГІГҐ ГЇГ Г°Г®Г«Гј:
 <input name="pass1" type="password"> <br> </br>
 
-Введите повторно пароль:
+Г‚ГўГҐГ¤ГЁГІГҐ ГЇГ®ГўГІГ®Г°Г­Г® ГЇГ Г°Г®Г«Гј:
 <input name="pass2" type="password"> <br> </br>
 <?php
 if ($_POST['pass1']!= $_POST['pass2']) 
             {
-            echo ("Пароли не совпадают");
+            echo ("ГЏГ Г°Г®Г«ГЁ Г­ГҐ Г±Г®ГўГЇГ Г¤Г ГѕГІ");
             }
 ?>
-Введите ваш @mail:
+Г‚ГўГҐГ¤ГЁГІГҐ ГўГ Гё @mail:
 <input name="Mail" type="text"> <br> </br>
-Тема сообщения:
+Г’ГҐГ¬Г  Г±Г®Г®ГЎГ№ГҐГ­ГЁГї:
 
 <input name="SMS" type="text"> <br> </br>
-Cообщение:
+CГ®Г®ГЎГ№ГҐГ­ГЁГҐ:
 <textarea name="Friends" cols="20" rows="5">
 
 </textarea><br> </br>
-<input type=SUBMIT value="Проверка">
+<input type=SUBMIT value="ГЏГ°Г®ГўГҐГ°ГЄГ ">
 
 </FORM>
 
